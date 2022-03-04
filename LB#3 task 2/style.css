@@ -1,0 +1,204 @@
+body {
+  background-color: #f8f8f8;
+  margin: 0 auto 5px;
+}
+
+h1 {
+  width: 255px;
+  margin: 0 auto 10px;
+  font-family: "Impact";
+  text-align: center;
+  font-weight: normal;
+  font-size: 62px;
+  line-height: 64px;
+}
+
+.top {
+  background: #1d1d1d;
+  color: #ffffff;
+}
+
+.top p {
+  font-family: "Tahoma";
+  font-size: 12px;
+  line-height: 28px;
+  width: 250px;
+  margin: 0 auto 2px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 24px; 
+}
+
+.menu {
+  width: 100%;
+  display: table;
+  font-family: "Tahoma";
+  font-size: 12px;
+}
+.menu ul {
+  display: table-row;
+}
+.menu li {
+  display: table-cell;
+  background: #1d1d1d;
+}
+.menu ul li:hover, .menu a:hover {
+  background: #383838;
+}
+.menu li a {
+  display: block;
+  padding: 8px 15px;
+  color: #f8f8f8;
+  text-align: center;
+  font-style: normal;
+}
+
+.back {
+  background-color: #eaeaea;
+}
+
+.heading {
+  font-family: "Impact";
+  position: absolute; 
+  text-align: center;
+  font-size: 15px;
+  color: #1d1d1d;
+  left: 660px;
+}
+
+.image-width {
+  width: 550px;
+}
+
+.image-width2 {
+  width: 550px;
+  position: absolute;
+  left: 465px;
+}
+
+.description {
+  font-family: "Tahoma";
+  font-size: 18px;
+  position: absolute; 
+  left: 43%;
+  bottom: 65%;
+  color: black;
+  font-weight: 400;
+}
+.description-cut {
+  position: absolute; 
+  left: 43%;
+  bottom: 58%;
+  font-family: "Tahoma";
+  font-size: 14px;
+  font-style: italic;
+  color: #707070;
+  line-height: 16px;
+}
+.specials {
+  font-family: "Tahoma";
+  font-size: 18px;
+  position: absolute; 
+  left: 43%;
+  bottom: 54%;
+  color: black;
+  font-weight: 400;
+}
+.specials-desc {
+  font-family: "Tahoma";
+  font-size: 17px;
+  position: absolute; 
+  left: 42%;
+  bottom: 45%;
+  color: #1d1d1d;
+}
+.detailed-description {
+  font-family: "Tahoma";
+  font-size: 18px;
+  position: absolute; 
+  left: 43%;
+  bottom: 41%;
+  color: black;
+  font-weight: 400;
+}
+.description-full {
+  position: absolute; 
+  left: 43%;
+  bottom: 20%;
+  font-family: "Tahoma";
+  font-size: 16px;
+  color: #484343;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font-family: "impact";
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
+
+.site-footer {
+  position: absolute; 
+  bottom: 1%;
+  width: 1660px;
+  border-top: 1px solid #000000;
+  background-color: #eaeaea;
+}
+
+.site-footer .footer-inside {
+  text-align: center;
+}
+
+.site-footer p {
+  color: #1d1d1d;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px;
+}
+
+
