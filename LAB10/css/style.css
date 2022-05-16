@@ -1,0 +1,17 @@
+/* Dark Background */
+
+.dark-bg {
+    background-image: url('../img/main_bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#hero .container {
+    height: 100vh;
+}
+
+.generic {
+    padding: 100px 0;
+}
+
